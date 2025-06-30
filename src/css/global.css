@@ -34,9 +34,9 @@
 .light-mode{
   --gradient: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
   --primary-color: hsl(227, 75%, 14%);
-  --secondary-color: hsl(0, 0%, 78%);
-  --tertiary-color: hsl(217, 61%, 90%);
-  --quaternary-color: hsl(0, 0%, 93%);
+  --secondary-color: hsl(221, 60%, 99%);
+  --tertiary-color: hsl(0, 0%, 93%);
+  --quaternary-color: hsl(0, 0%, 78%);
   --red: hsl(3, 77%, 44%);
 }
 
