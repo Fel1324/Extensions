@@ -1,0 +1,23 @@
+img{
+  vertical-align: top;
+}
+
+.container{
+  width: 100%;
+  max-width: 24rem;
+  margin: 0 auto;
+
+  padding: 1.25rem 1rem 2rem;
+}
+
+.primary-title{
+  font: var(--fs-xl);
+  color: var(--primary-color);
+  text-align: center;
+
+  margin-block: 2rem 1rem;
+}
+
+.btn{
+  background: none;
+}
