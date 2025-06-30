@@ -4,6 +4,7 @@
   justify-content: space-between;
 
   background-color: var(--secondary-color);
+  border: .0625rem solid var(--quaternary-color);
   border-radius: .75rem;
   padding: .5rem .75rem;
 

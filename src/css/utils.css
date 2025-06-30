@@ -2,6 +2,10 @@ img{
   vertical-align: top;
 }
 
+button{
+  cursor: pointer;
+}
+
 .container{
   width: 100%;
   max-width: 24rem;
@@ -15,9 +19,5 @@ img{
   color: var(--primary-color);
   text-align: center;
 
-  margin-block: 2rem 1rem;
-}
-
-.btn{
-  background: none;
+  margin-top: 2rem;
 }

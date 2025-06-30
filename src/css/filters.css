@@ -1,0 +1,23 @@
+.filters{
+  display: flex;
+  justify-content: center;
+  gap: .625rem;
+
+  margin-block: 1rem 1.5rem;
+
+  & > .btn-filter{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: .0625rem solid var(--quaternary-color);
+    border-radius: 1.5rem;
+
+    font: var(--fs-md);
+    padding: .5rem 1.25rem;
+
+    &.active{
+      background-color: var(--red);
+      border-color: var(--red);
+      color: var(--btn-filter-active)
+    }
+  }
+}

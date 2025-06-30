@@ -1,5 +1,7 @@
 @import url("./utils.css");
 @import url("./header.css");
+@import url("./filters.css");
+@import url("./extensions.css");
 
 *,
 *::before,
@@ -15,11 +17,12 @@
 :root{
   --font: 'Noto Sans', sans-serif;
   --fs-sm: 400 1rem/1.5 var(--font);
-  --fs-md: 500 1.25rem/1.5 var(--font);
-  --fs-lg: 400 1.5rem/1.5 var(--font);
+  --fs-md: 500 1.125rem/1.5 var(--font);
+  --fs-lg: 700 1.375rem/1 var(--font);
   --fs-xl: 700 2rem/1.5 var(--font);
 
   --red-states: hsl(3, 71%, 56%);
+  --neutral: #FFF;
 }
 
 .dark-mode{
@@ -29,6 +32,7 @@
   --tertiary-color: hsl(225, 23%, 24%);
   --quaternary-color: hsl(226, 11%, 37%);
   --red: hsl(3, 86%, 64%);
+  --btn-filter-active: hsl(227, 75%, 14%);
 }
 
 .light-mode{
@@ -38,6 +42,7 @@
   --tertiary-color: hsl(0, 0%, 93%);
   --quaternary-color: hsl(0, 0%, 78%);
   --red: hsl(3, 77%, 44%);
+  --btn-filter-active: hsl(200, 60%, 99%);
 }
 
 html, body{
