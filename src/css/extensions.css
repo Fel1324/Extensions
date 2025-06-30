@@ -89,3 +89,14 @@
     }
   }
 }
+
+@media screen and (width >= 1024px) {
+  .extensions{
+    grid-area: exts;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+
+  .extension{
+    gap: 1.75rem;
+  }
+}

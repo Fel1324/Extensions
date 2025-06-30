@@ -19,7 +19,7 @@
   --fs-sm: 400 1rem/1.5 var(--font);
   --fs-md: 500 1.125rem/1.5 var(--font);
   --fs-lg: 700 1.375rem/1 var(--font);
-  --fs-xl: 700 2rem/1.5 var(--font);
+  --fs-xl: 700 2rem/1 var(--font);
 
   --red-states: hsl(3, 71%, 56%);
   --neutral: #FFF;
@@ -53,4 +53,12 @@ html, body{
   min-height: 100vh;
 
   font: var(--fs-sm);
+}
+
+img{
+  vertical-align: top;
+}
+
+button{
+  cursor: pointer;
 }

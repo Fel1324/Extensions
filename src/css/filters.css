@@ -21,3 +21,11 @@
     }
   }
 }
+
+@media screen and (width >= 1024px) {
+  .filters{
+    grid-area: filters;
+    justify-self: flex-end;
+    margin: 0;
+  }
+}

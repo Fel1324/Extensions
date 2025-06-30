@@ -1,17 +1,9 @@
-img{
-  vertical-align: top;
-}
-
-button{
-  cursor: pointer;
-}
-
 .container{
   width: 100%;
   max-width: 24rem;
   margin: 0 auto;
 
-  padding: 1.25rem 1rem 2rem;
+  padding: 1.25rem 1rem 3rem;
 }
 
 .primary-title{
@@ -20,4 +12,27 @@ button{
   text-align: center;
 
   margin-top: 2rem;
+}
+
+@media screen and (width >= 1024px){
+  .container{
+    max-width: 75rem;
+    padding-top: 2rem;
+  }
+
+  .main{
+    display: grid;
+    grid-template-areas: 
+    'title filters'
+    'exts exts';
+    align-items: center;
+    row-gap: 1.75rem;
+    margin-top: 2.75rem;
+  }
+
+  .primary-title{
+    grid-area: title;
+    text-align: left;
+    margin: 0;
+  }
 }

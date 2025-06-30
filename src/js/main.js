@@ -1,7 +1,7 @@
-import "../js/features/toggle-mode.js"
-import { loadExtensions } from "./modules/load-extensions.js"
+import { toggleMode } from "../js/features/toggle-mode.js"
+import { loadExtensionsList } from "./modules/load-extensions-list.js"
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadExtensions()
+  toggleMode()
+  loadExtensionsList()
 })
-
