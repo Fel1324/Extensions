@@ -15,9 +15,18 @@
 
 #toggle-mode{
   background-color: var(--tertiary-color);
-  border: 0;
+  border: .0625rem solid transparent;
   border-radius: .75rem;
 
   width: 3.125rem;
   height: 3.125rem;
+
+  &:focus{  
+    outline: .125rem solid var(--red-states);
+    border-color: var(--btn-filter-active);
+  }
+
+  &:hover{
+    background-color: var(--quaternary-color);
+  }
 }

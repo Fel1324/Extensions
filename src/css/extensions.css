@@ -47,6 +47,17 @@
     padding: .375rem 1rem;
     font: var(--fs-sm);
     color: var(--primary-color);
+
+    &:focus{
+      outline: .125rem solid var(--red-states);
+      border-color: var(--btn-filter-active);
+    }
+
+    &:hover{
+      background-color: var(--red-states);
+      border-color: var(--red-states);
+      color: var(--btn-filter-active);
+    }
   }
 
   & > .switch-wrapper{
@@ -58,14 +69,21 @@
       all: unset;
       background-color: var(--quaternary-color);
       border-radius: 1.5rem;
+      border: .125rem solid transparent;
+      cursor: pointer;
 
       width: 100%;
       height: 100%;
-      padding: .125rem .25rem;
+      padding: .125rem .1875rem;
 
       display: flex;
       align-items: center;
       transition: background-color .3s ease-in-out;
+
+      &:focus{
+        outline: .125rem solid var(--red-states);
+        border-color: var(--btn-filter-active);
+      }
 
       &::after{
         content: "";
