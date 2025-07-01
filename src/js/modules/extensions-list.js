@@ -40,7 +40,7 @@ export class ExtensionsList {
 
         if (id) {
           this.extensions = this.extensions.filter((extension) => extension.id !== id)
-          this.allExtensions = this.extensions
+          this.allExtensions = this.allExtensions.filter((extension) => extension.id !== id)
           document.getElementById(id).remove()
         }
       }
